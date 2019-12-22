@@ -1,0 +1,55 @@
+/*
+  Waffle.h - Library for using the Waffle with Arduino
+  Created by Tyler Collins, December 22, 2019
+  Not yet released into the public domain
+*/
+
+#ifndef Waffle_h
+#define Waffle_h
+#include "Arduino.h"
+
+class Waffle
+{
+  public:
+    Waffle();
+    bool begin();
+    //bool setupComplete();
+    //long nackTime; 
+    
+  private:
+    //bool servicePort(int port);
+    //bool characterize(int port);
+    //bool promote(int port);
+    //byte streamBuffer[2][2];
+    //int byteIndex[2];
+    //int loadLength[2];
+    //bool characterized[2];
+    //long lastSeen[2];
+    //long lastNack[2];
+    //int type[2];
+    //int numModes[2];
+    //int numModesShown[2];
+    //long opBaud[2];
+    //modeName[2][8];
+}
+
+*/
+class Motor
+{
+  public:
+    void setEffort();
+    void setPosition();
+    long getPosition();
+    void setSpeed();
+    int getSpeed();
+    int _port;
+    float p;
+    float i;
+    float d;
+    
+  private:
+    
+}
+*/
+
+#endif
