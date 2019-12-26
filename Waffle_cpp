@@ -1,0 +1,39 @@
+/*
+  Waffle.cpp - methods for Waffle
+  Created by Tyler Collins, December 22, 2019
+  Not yet released into the public domain
+*/
+
+#include "Arduino.h"
+#include "Waffle.h"
+#include "Wire.h"
+
+#DEFINE IR = 18;
+#DEFINE AIN1 = 17; 
+#DEFINE AIN2 = 12;
+#DEFINE AID1 = 21;
+#DEFINE AID2 = 23;
+#DEFINE BIN1 = 15;
+#DEFINE BIN2 = 2;
+#DEFINE BID1 = 14;
+#DEFINE BID2 = 16;
+#DEFINE _SCL = 22;
+#DEFINE _SDA = 19;
+#DEFINE I2S_DO = 25;
+#DEFINE I2S_BLCK = 27;
+#DEFINE I2S_LRCLK = 26;
+#DEFINE BTN = 0;
+#DEFINE I_sense = 34;
+#DEFINE V_sense = 35;
+#DEFINE portA = 13;
+#DEFINE portB = 4;
+
+Waffle::Waffle()
+{
+
+}
+
+Waffle::begin()
+{
+
+}
